@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   color: #111;
   background: #edeff0;
+  background-image: url(svgs/background.svg);
 }
 
 #container {
@@ -44,8 +45,45 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin-right: 20px;
+  color: #39ADD1;
+
 }
 
+li {
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+.nav{
+  transition: 1s ease-out;
+  fill: #39ADD1;
+}
+
+li:hover, .nav:hover   {
+  color: #0E5768;
+  fill:#0E5768;
+  stroke-width: 2px;
+}
+
+#logo{
+width: 140px;
+height: 120px;
+}
+
+#logo:hover {
+  fill: #39ADD1;
+}
+.st1 {
+  display: none;
+}
+
+.st0 {
+  transition: fill .5s ease-out;
+}
+.st0:hover {
+fill:grey;
+
+}
 main {
   padding-top: 50px;
 }
@@ -60,3 +98,20 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+
+
+  @media (min-width: 426px) {
+h1 {
+  display: none;
+}
+
+.st1 {
+  display: inline;
+}
+
+
+
+
+
+  }
