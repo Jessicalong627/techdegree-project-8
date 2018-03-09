@@ -21,6 +21,7 @@ p {
   margin: 35px auto 0;
   line-height: 2em;
   text-align: left;
+  display: block;
 }
 
 a {
@@ -99,6 +100,21 @@ footer {
   color: #ba8058;
 }
 
+.sable {
+  color: #ba8058;
+}
+
+.fawn {
+  fill: #ba8058;
+}
+
+.red {
+color: #ba8058;
+}
+
+.stone {
+color: blue;
+}
 
 
   @media (min-width: 426px) {
@@ -112,6 +128,4 @@ h1 {
 
 
 
-
-
-  }
+}
