@@ -52,11 +52,11 @@ header nav ul li {
 
 li {
   transition-property: color;
-  transition-duration: 1s;
+  transition-duration: .5s;
 }
 
 .nav{
-  transition: 1s ease-out;
+  transition: .5s ease-out;
   fill: #39ADD1;
 }
 
@@ -101,19 +101,23 @@ footer {
 }
 
 .sable {
-  color: #ba8058;
+  fill: #B97F5B;
 }
 
 .fawn {
-  fill: #ba8058;
+  fill: #E9AA82;
 }
 
 .red {
-color: #ba8058;
+fill: #834B29;
 }
 
 .stone {
-color: blue;
+fill: #52595E;
+}
+
+.nose_and_eyes{
+  fill:grey;
 }
 
 
