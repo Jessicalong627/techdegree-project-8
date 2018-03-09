@@ -120,6 +120,18 @@ fill: #52595E;
   fill:grey;
 }
 
+main li {
+  width: 150px;
+  display: inline-block;
+  color: brown;
+  text-align: center;
+}
+span{
+  margin-right: 15px;
+}
+#corgi{
+  margin-left: 100px;
+}
 
   @media (min-width: 426px) {
 h1 {
@@ -127,7 +139,7 @@ h1 {
 }
 
 .st1 {
-  display: inline;
+  display: inline-block;
 }
 
 
