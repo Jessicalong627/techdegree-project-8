@@ -72,9 +72,6 @@ a:hover {
   fill: #0E5768;
 }
 
-
-
-
 #logo {
 width: 140px;
 height: 120px;
@@ -87,7 +84,6 @@ fill: #B97F5B;
 .st1 {
   display: none;
 }
-
 
 main {
   padding-top: 50px;
@@ -144,8 +140,5 @@ h1 {
 .st1 {
   display: inline-block;
 }
-
-
-
 
 }
